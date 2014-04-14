@@ -1,0 +1,266 @@
+@CHARSET "ISO-8859-1";
+body {
+	background: #FFFFFF; 
+	background: linear-gradient(bottom, #7A83FF 30%, #FFFFFF 70%);  
+	background: -moz-linear-gradient(bottom, #7A83FF 30%, #FFFFFF 70%); 
+	background: -webkit-linear-gradient(bottom, #7A83FF 30%,#FFFFFF 70%); 
+}
+
+
+.logo{
+	margin-left: 50px;
+	
+}
+
+#logo_image{
+	margin-left: 50px;
+	
+}
+
+
+
+#nav_bar_container{
+	width: 960px;
+	height: 80px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+	background-color: black;
+	border-radius: 10px;
+}
+
+#nav_bar {
+	text-align: center;
+}
+
+#body_container {
+	height: 1200px; 
+	width: 960px;
+	background: #B8B8B8; 
+	background: linear-gradient(top, #B8B8B8 0%, #FFFFFF 40%);  
+	background: -moz-linear-gradient(top, #B8B8B8 0%, #FFFFFF 40%); 
+	background: -webkit-linear-gradient(top, #B8B8B8 0%,#FFFFFF 40%); 
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 10px;
+}
+
+#content_container {
+	width: 750px;
+	height: 700px; 
+	background-color: #FFFFFF;
+	border: 2px solid;
+	border-radius: 10px;
+	box-shadow: 5px 5px 3px #171717;
+	float: left;
+	margin-left: 20px;
+}
+
+
+#content_images {
+	background-color: #000000;
+	margin-top: 50px;
+}
+
+#content_images table {
+	width: 100%;
+	text-align: center;
+	
+}
+
+#content_images table tr{
+	height: 40px;
+}
+
+#content_images table tr th {
+}
+
+#content_images table tr th a {
+	text-decoration: none;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-family: arial black, sans-serif;
+	color: #FFFFFF;
+	
+}
+
+#content_images table tr th a:hover {
+	color: #8F8F8F; 
+}
+
+#content_images table tr td {
+	background-color: #D9DBFF;
+	
+}
+
+#content_images table tr td:hover{
+	background-color: #FFFFFF;
+}
+
+#content_images table tr td a {
+}
+
+#content_images table tr td a img {
+}
+
+#other_content {
+	width: 99%;
+	height: 150px;
+	margin: 10px auto;
+	border: 2px solid;
+	border-radius: 5px;
+	background-color: #D1D1D1;
+	text-align: center;
+	
+}
+
+#other_content p{
+	font-size: 30px;
+	font-weight: bold;
+	font-family: Corbel, sans-serif;
+	text-transform: uppercase;
+	border-top: 2px solid;
+	border-bottom: 2px solid;
+	background-color: #FFFFFF;
+}
+
+#other_content a{
+	padding: 20px 50px;
+	text-decoration: none;
+	border: 2px solid;
+	border-radius: 10px;
+	border-color: black;
+	background-color: #D1D1D1;
+	font-size: 20px;
+	font-weight: bold;
+	font-color: black;
+}
+
+#other_content a:visited {
+		font-color: black;
+}
+
+
+#side_bar_container{
+	height: 1050px;
+	width: 150px;
+	background: #efefef; 
+	background: linear-gradient(top, #B3B4C4 0%, #1D2157 90%);  
+	background: -moz-linear-gradient(top, #B3B4C4 0%, #1D2157 90%); 
+	background: -webkit-linear-gradient(top, #B3B4C4 0%,#1D2157 90%); 
+	float: right;
+	box-shadow: 10px 10px 5px #171717;
+	margin-right: 10px;
+	border-radius: 10px;
+	border: 2px solid;
+	border-color: #000000;
+}
+
+
+
+#side_bar_table table tr td iframe {
+	margin-top: 10px;
+	margin-left: 20px;
+}
+
+#side_bar_table .twitter-follow-button{
+	margin-bottom: 10px;
+}
+
+#side_bar_nav {
+	background-color: #E0E0E0;
+}
+
+#side_bar_nav ul {
+	list-style-type: none;
+	text-align: center;
+	width: 108px;
+	height: 300px;
+	border: 2px solid;
+	border-color: #373B6E  ;
+}
+
+#side_bar_nav ul li {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-right: auto;
+	margin-left: -40px;
+}
+
+#side_bar_nav ul li a {
+	text-decoration: none;
+	font-family: Helvetica, Sans-Serif;
+	display: block;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: bold;
+	color: #8C8C8C;
+}
+
+#side_bar_nav ul li a:hover {
+	color:#FFFFFF;
+	border-top: 2px solid;
+	border-bottom: 2px solid;
+	border-color: #D1D1D1;
+}
+
+#bottom_container {
+	width: 750px;
+	height: 300px;
+	background-color: #FFFFFF;
+	border: 2px solid;
+	border-radius: 10px;
+	box-shadow: 5px 5px 3px #171717;
+	margin-left: 20px;
+	margin-top: 20px;
+	float: left;
+}
+
+
+#contact_content {
+ font-size: 20px;
+ color: #212BB5;
+ text-align: center;
+}
+
+#howitworks_content {
+	font-family: Helvetica, Sans-Serif;
+	font-size: 18px;
+}
+
+
+#howitworks_content h1 {
+	text-align: center;
+	background-color: #606075;
+	border-top: 2px solid;
+	border-bottom: 2px solid;
+}
+
+#howitworks_content ul li {
+	margin: 10px 0px 10px 0px;
+}
+
+#footer_container {
+	width: 100%;
+	height: 50px;
+	float: bottom;
+	margin-top: -60px;
+	opacity: 0.7;
+	border-top: 2px solid;
+	border-bottom: 2px solid;
+	border-color: #000000;
+	background-color: #CCCCCC;
+	text-align: center;
+	
+}
+
+#footer_container ul {
+	margin-left: -40px;
+}
+
+#footer_container ul li {
+	display: inline;
+	padding-left: 30px;
+	padding-right: 30px;
+	text-align: center;
+}
